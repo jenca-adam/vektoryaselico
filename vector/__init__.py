@@ -70,5 +70,5 @@ def multi(la):
         
         result.append(k.norm())
 
-    return max(result)
+    return max(result)/len(l)
     
